@@ -56,7 +56,9 @@ body {
 }
 
 .sidebar__library {
-  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
   background-color:rgba(18, 18, 18, 0.5);
   border-radius: 8px;
   padding: 16px 16px 16px 16px;
@@ -111,12 +113,14 @@ body {
   border-radius: 20px;
   border: none;
   padding: 12px;
+  cursor: pointer;
 }
 
 .sidebar__library .cookies {
   margin: 30px 0 30px 12px;
   color: #b3b3b3;
   font-size: 13px;
+  cursor: pointer;
 }
 
 .sidebar__library .language button{
@@ -127,4 +131,47 @@ body {
   border-radius: 20px;
   border: 1px solid #fff;
   padding: 10px;
+  cursor: pointer;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  max-width: 100dvw;
+  width: 100dvw;
+  background: linear-gradient(to right, #9733EE, #DA22FF);
+}
+
+.footer .footer__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.footer__content__texts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 10px;
+}
+
+.footer__content__texts  .text {
+  color: #fff;
+}
+
+.footer__content__texts .title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.footer__content button {
+  margin-right: 30px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 20px;
+  border: none;
+  width: 150px;
+  font-weight: 700;
+  cursor: pointer;
 }
