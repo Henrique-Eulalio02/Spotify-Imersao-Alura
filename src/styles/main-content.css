@@ -97,8 +97,7 @@
 
   /* PLAYLIST */
   .playlist-container {
-    height: 68vh;
-    padding-top: 16px;
+    padding-top: 6px;
     margin: 10px;
     border-radius: 10px;
     background-color: var(--bg-container);
@@ -122,11 +121,10 @@
     font-size: 24px;
     font-weight: 700;
   }
-  
-  /* SCROLL */
+
   .offer__scroll-container {
     max-height: 43vh;
-    margin: 24px;
+    margin: 14px;
     overflow-y: auto;
   }
   
@@ -137,7 +135,6 @@
   .offer__scroll-container::-webkit-scrollbar-thumb {
     background-color: var(--border-color-container);
   }
-  /* FIM SCROLL */
   
   .offer__list-item {
     display: grid;
