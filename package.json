@@ -1,0 +1,11 @@
+{
+  "name": "seu-projeto",
+  "version": "1.0.0",
+  "description": "Descrição do seu projeto",
+  "scripts": {
+    "start": "json-server --watch artists/artists.json --port 3000"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.0"
+  }
+}
